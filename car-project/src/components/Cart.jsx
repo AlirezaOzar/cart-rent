@@ -37,7 +37,7 @@ const Cart = () => {
                         </div>
                         <div className="flex flex-col text-sm gap-3">
                             <label className="font-semibold">Phone Number</label>
-                            <input type="number" className=" outline-none rounded-lg px-5 py-2 bg-slat10200 lg:max-w-[385px]" placeholder="Your Phone"/>
+                            <input type="number" className=" outline-none rounded-lg px-5 py-2 bg-slate-100 lg:max-w-[385px]" placeholder="Your Phone"/>
                         </div>
                         <div className="flex flex-col text-sm gap-3">
                             <label className="font-semibold">Address</label>
