@@ -42,7 +42,7 @@ const ReduceProduct = (state,action) => {
     case "search" : {
         const value = action.event.target.value;
         if(value === ""){
-            return products;
+            return state;
         } else {
             const filterProducts = state.filter((p) => 
             p.name.toLowerCase().includes(value.toLowerCase()))

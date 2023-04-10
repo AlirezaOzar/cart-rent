@@ -33,7 +33,7 @@ const Filter = () => {
         setSort(sortedOption)
     }
     return ( 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 items-center shadow-sm py-3 mt-5 rounded-lg bg-white">
+        <div className="flex flex-col items-center md:gap-10  py-7 px-4 mt-5 rounded-lg bg-white dark:text-black">
            <Filtercomponent value={value} options={options} onChange={changeHandler} title="Sort by Car"/>   
            <Filtercomponent value={sort} options={sortOptions} onChange={sortHandler} title="Sort by price"/>    
            <Search/>

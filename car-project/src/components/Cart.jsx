@@ -22,7 +22,7 @@ const Cart = () => {
 
     return ( 
         <div className="flex justify-center">
-            <div className="grid grid-cols-1 md:grid-cols-2 px-4 mt-10 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 px-4 mt-10 gap-4 mb-10">
             <div>
                 <div className="max-w-[852px] shadow-lg rounded-lg p-4 bg-white">
                     <h2 className="font-semibold">Biling info</h2>
@@ -33,19 +33,19 @@ const Cart = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-5">
                         <div className="flex flex-col text-sm gap-3">
                             <label className="font-semibold">Name</label>
-                            <input type="text" className=" outline-none rounded-lg px-5 py-2 bg-slate-100 lg:max-w-[385px]" placeholder="Your name"/>
+                            <input type="text" className="focus:ring focus:ring-blue-600 outline-none rounded-lg px-5 py-2 bg-slate-100 lg:max-w-[385px]" placeholder="Your name"/>
                         </div>
                         <div className="flex flex-col text-sm gap-3">
                             <label className="font-semibold">Phone Number</label>
-                            <input type="number" className=" outline-none rounded-lg px-5 py-2 bg-slate-100 lg:max-w-[385px]" placeholder="Your Phone"/>
+                            <input type="number" className="focus:ring focus:ring-blue-600 outline-none rounded-lg px-5 py-2 bg-slate-100 lg:max-w-[385px]" placeholder="Your Phone"/>
                         </div>
                         <div className="flex flex-col text-sm gap-3">
                             <label className="font-semibold">Address</label>
-                            <input type="text" className=" outline-none rounded-lg px-5 py-2 bg-slate-100 lg:max-w-[385px]" placeholder="Your Address"/>
+                            <input type="text" className="focus:ring focus:ring-blue-600 outline-none rounded-lg px-5 py-2 bg-slate-100 lg:max-w-[385px]" placeholder="Your Address"/>
                         </div>
                         <div className="flex flex-col text-sm gap-3">
                             <label className="font-semibold">Town/City</label>
-                            <input type="text" className=" outline-none rounded-lg px-5 py-2 bg-slate-100 lg:max-w-[385px]" placeholder="Your Town"/>
+                            <input type="text" className="focus:ring focus:ring-blue-600 outline-none rounded-lg px-5 py-2 bg-slate-100 lg:max-w-[385px]" placeholder="Your Town"/>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ const Cart = () => {
                         <div>
                             <div className="flex flex-col text-sm gap-3">
                                 <label className="font-semibold">Locations</label>
-                                <input type="text" className=" outline-none rounded-lg px-5 py-2 bg-slate-100 lg:max-w-[385px]" placeholder="Select your city"/>
+                                <input type="text" className="focus:ring focus:ring-blue-600 outline-none rounded-lg px-5 py-2 bg-slate-100 lg:max-w-[385px]" placeholder="Select your city"/>
                             </div>
                             <div className="flex flex-col text-sm gap-3 pt-3">
                                 <label className="font-semibold">Date</label>
@@ -89,7 +89,7 @@ const Cart = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-5">
                         <div className="flex flex-col text-sm gap-3">
                             <label className="font-semibold">Location</label>
-                            <input type="text" className=" outline-none rounded-lg px-5 py-2 bg-slate-100 lg:max-w-[385px]" placeholder="Enter your city"/>
+                            <input type="text" className="focus:ring focus:ring-blue-600 outline-none rounded-lg px-5 py-2 bg-slate-100 lg:max-w-[385px]" placeholder="Enter your city"/>
                         </div>
                         <div className="flex flex-col text-sm gap-3">
                             <label className="font-semibold">Date</label>
@@ -121,7 +121,7 @@ const Cart = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-5">
                         <div className="flex flex-col text-sm gap-3">
                             <label className="font-semibold">Card Number</label>
-                            <input type="number" className=" outline-none rounded-lg px-5 py-2 bg-whit10lg:max-w-[385px]" placeholder="Card Number"/>
+                            <input type="number" className="focus:ring focus:ring-blue-600 outline-none rounded-lg px-5 py-2 bg-whit10lg:max-w-[385px]" placeholder="Card Number"/>
                         </div>
                         <div className="flex flex-col text-sm gap-3">
                             <label className="font-semibold">Expration Date</label>
@@ -129,11 +129,11 @@ const Cart = () => {
                         </div>
                         <div className="flex flex-col text-sm gap-3">
                             <label className="font-semibold">Cart Holder</label>
-                            <input type="text" className=" outline-none rounded-lg px-5 py-2 bg-white 10:max-w-[385px]" placeholder="Cart Holder"/>
+                            <input type="text" className="focus:ring focus:ring-blue-600 outline-none rounded-lg px-5 py-2 bg-white 10:max-w-[385px]" placeholder="Cart Holder"/>
                         </div>
                         <div className="flex flex-col text-sm gap-3">
                             <label className="font-semibold">CVC</label>
-                            <input type="text" className=" outline-none rounded-lg px-5 py-2 bg-white 10:max-w-[385px]" placeholder="CVC"/>
+                            <input type="text" className="focus:ring focus:ring-blue-600 outline-none rounded-lg px-5 py-2 bg-white 10:max-w-[385px]" placeholder="CVC"/>
                         </div>
                     </div>
                     </div>

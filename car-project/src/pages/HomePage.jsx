@@ -10,7 +10,6 @@ const HomePage = () => {
         <Layout>
            <div  className="max-w-[1350px] mx-auto">
              <Home/>
-              <Filter/>
               <Products/>
            </div>
         </Layout>
